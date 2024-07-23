@@ -1,4 +1,5 @@
 defmodule FgAuthWeb.PageController do
+  alias FgAuthWeb.UserAuth
   use FgAuthWeb, :controller
 
   def home(conn, _params) do
